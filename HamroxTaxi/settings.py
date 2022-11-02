@@ -21,9 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-^b9@7e=i019-@&870344)=4jgwg+m2gjtqowe)%acs=9_yrjn_'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
+SECRET_KEY = 'django-insecure-^b9@7e=i019-@&870344)=4jgwg+m2gjtqowe)%acs=9_yrjn_'
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -76,10 +77,15 @@ WSGI_APPLICATION = 'HamroxTaxi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+  'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'hamroxdb', 
+        'USER': 'postgres',
+        'PASSWORD': 'doni1909',
+        'HOST': '127.0.0.1', 
+        'PORT': '5432',
     }
 }
 
