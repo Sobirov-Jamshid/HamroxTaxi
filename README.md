@@ -12,6 +12,5 @@ TASKS FOR DEVELOPERS ( 12.11.2022 gacha bajarilishi kerak)
   * CRUD 
   * CHATTING 
   * PAYMENT 
-  hhj
 
   
