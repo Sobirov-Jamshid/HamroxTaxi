@@ -1,5 +1,5 @@
 # HamroxTaxi
-TASKS FOR DEVELOPERS ( 12.11.2022 gacha bajarilishi kerak)
+TASKS FOR DEVELOPERS ( 12.11.2023 gacha bajarilishi kerak)
 
 # FOR FRONTEND 
  * AUTHENTIFICATION PAGE [+]
